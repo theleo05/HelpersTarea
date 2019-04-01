@@ -43,7 +43,7 @@ namespace Tarea4.Controllers
 
 			
 			return View("Resultado:" + total);
-
+			
 		}
 
 		public ActionResult About()
