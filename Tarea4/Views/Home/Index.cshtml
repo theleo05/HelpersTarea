@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html>
+<head>
+    <tittle>CALCULADORA</tittle>
+</head>
+
+<body>
+    <div>
+        <form action="total" method="post">
+            Valor 1:
+            <input type="text" name="value1" />
+            <br />
+            Valor 2:
+            <input type="text" name="value2" />
+            <br />
+            <input type="radio" name="calc" value="+" />Sumar<br />
+            <input type="radio" name="calc" value="-" />Restar<br />
+            <input type="radio" name="calc" value="*" />Multiplicar<br />
+            <input type="radio" name="calc" value="/" />Dividir<br />
+            <input type="submit" value="count" />
+        </form>
+    </div>
+</body>
+
+</html>
