@@ -36,7 +36,7 @@ namespace Tarea4.Controllers
 				default:
 					total = 0;
 					break;
-					lkokllkok
+					
 
 
 			}
