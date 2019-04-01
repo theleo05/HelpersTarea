@@ -11,7 +11,6 @@ namespace Tarea4.Models
 		public int n1{ get; set;}
 		public int n2 { get; set; }
 		public int resultado { get; set; }
-
 		public Operaciones operacion { get; set;}
 		}
 }
